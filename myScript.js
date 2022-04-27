@@ -20,10 +20,6 @@ else if (phonenumber=null || phonenumber==""){  //Check if the phonenumber is em
     alert("Phone number can't be blank");  
     return false; 
 }
-else if (length.phonenumber!=11){  //Check whether the phone number is 11 digits
-    alert("Please enter an 11-digit phone number");  
-    return false; 
-}
 else if (true){
     alert("Thank you for filling in, we will contact you as soon as possible.")
     return true
